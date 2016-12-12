@@ -2,6 +2,7 @@ envs:
   global:
     variables:
       tapir: dingo
+      TRIGGER_BRANCH: master
       TRIGGER_REFSPEC: +refs/heads/master:refs/remotes/origin/master
 
 flows:
