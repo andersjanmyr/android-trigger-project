@@ -2,7 +2,7 @@ envs:
   global:
     variables:
       tapir: dingo
-      TRIGGER_REFSPEC: development
+      TRIGGER_REFSPEC: master
 
 flows:
   master:
