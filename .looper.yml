@@ -1,5 +1,7 @@
 envs:
-  elefant: tapir
+  global:
+    variables:
+      tapir: dingo
 
 flows:
   master:
