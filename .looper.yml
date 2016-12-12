@@ -1,0 +1,8 @@
+envs:
+  elefant: tapir
+
+flows:
+  master:
+    job: anders-dummy-project
+  pr:
+    job: anders-dummy-project
