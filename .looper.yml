@@ -4,6 +4,7 @@ envs:
       tapir: dingo
       TRIGGER_BRANCH: master
       TRIGGER_REFSPEC: +refs/heads/master:refs/remotes/origin/master
+      GITHUB_PR_SOURCE_BRANCH: $GITHUB_PR_SOURCE_BRANCH
 
 flows:
   master:
